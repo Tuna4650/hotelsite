@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hotel.com</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--NAVBAR -->
+    <nav class="navbar fixed-top" style="background-color: transparent;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">HOTEL.COM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel" style="background-color:  rgb(236, 245, 218);">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Seçeneklerimiz</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="signin.html">Kayıt ol</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="login.html">Giriş yap</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="buypage.html">Hemen Başvur</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="aboutus.html">Hakkımızda</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--NAVBAR SONU-->
+    <!--ÖN FOTO-->:
+    <h1 id="nebileyim"> Hayalinizdeki Tatil Uzak Değil !
+    </h1>
+    <div class="testimage">
+        <a href="buypage.html"><img src="photos/tatilfoto.jpg" alt="" width="100%" height="100%" srcset=""></a>
+    </div>
+    <!--ÖN FOTO SONU-->
+    <!-- ARA DİV-->
+    <div class="aradiv">
+        <h2>Gitmek istediğiniz Ülkeyi seçin!</h2>
+        <div style="margin-left: 4%;">
+            <a href="buypage.html"><button class="btn btn-outline-warning">Kanada</button></a>
+            <a href="buypage.html"><button class="btn btn-outline-warning">İngiltere</button></a>
+            <a href="buypage.html"><button class="btn btn-outline-warning">İspanya</button></a>
+            <a href="buypage.html"><button class="btn btn-outline-warning">Belçika</button></a>
+        </div>
+    </div>
+    <!--ARA DİV SONU-->
+
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <a href="buypage.html"><img src="photos/ispanya.jpg" alt=""></a>
+        </div>
+        <div class="item">
+            <a href="buypage.html"><img src="photos/isvec.jpg" alt=""></a>
+        </div>
+        <div class="item">
+            <a href="buypage.html"><img src="photos/italya.jpg" alt=""></a>
+        </div>
+        <div class="item">
+            <a href="buypage.html"><img src="photos/turkiye.jpg" alt=""></a>
+        </div>
+        <div class="item">
+            <a href="buypage.html"><img src="photos/turkiye2.jpg" alt=""></a>
+        </div>
+        <div class="item">
+            <a href="buypage.html"><img src="photos/turkiye3.jpg" alt=""></a>
+        </div>
+    </div>
+
+    <div class="slider_nav">
+        <button class="am-next">&#8249;</button>
+        <button class="am-prev">&#8250;</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://kit.fontawesome.com/3b0a5b041e.js" crossorigin="anonymous"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            mouseDrag: false,
+            animateOut: 'fadeOut',
+            navText: [$('.am-next'), $('.am-prev')],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,280 @@
+body {
+    background-color: rgb(236, 245, 218);
+}
+
+.navbar-brand,
+.navbar-toggler {
+    font-size: x-large;
+    margin: 2%;
+    border: 0;
+}
+
+.owl-carousel {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#nebileyim {
+    text-align: center;
+    margin-top: 5%;
+    font-size: x-large;
+}
+
+.testimage {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 40%;
+    height: 600px;
+    background-color: green;
+    border: 1px solid;
+
+}
+
+.aradiv {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 30%;
+    height: 220px;
+    background-color: rgb(227, 183, 141);
+    border: 1px solid;
+
+}
+
+.aradiv h2 {
+    margin: 5%;
+
+}
+
+.aradiv button {
+    margin: 2%;
+    width: 19%;
+    height: 4%;
+    color: black;
+    border-color: rgb(245, 152, 54);
+    border-radius: 0;
+}
+
+.aradiv button:hover {
+    background-color: rgb(245, 152, 54);
+}
+
+.selecthotel {
+    width: 60%;
+    height: 300px;
+    margin-left: 3%;
+    margin-top: 12%;
+}
+
+.hotels {
+    width: 100%;
+    height: 25%;
+    background-color: transparent;
+}
+
+#hotelsimage {
+    width: 10%;
+    height: 100%;
+    background-color: red;
+}
+
+.part {
+    width: 45%;
+    height: 100%;
+    background-color: transparent;
+    float: right;
+    padding-left: 3%;
+    font-size: x-large;
+
+}
+
+.am-next {
+    position: absolute;
+    top: 36%;
+    left: -5%;
+    background-color: rgb(236, 245, 218);
+    border-radius: 42px;
+    border: 1px solid #000000;
+    display: inline-block;
+    cursor: pointer;
+    color: #000000;
+    font-family: Arial;
+    font-size: 28px;
+    padding: 9px 26px;
+    text-decoration: none;
+}
+
+.am-prev {
+    top: 36%;
+    right: -5%;
+    position: absolute;
+    background-color: rgb(236, 245, 218);
+    border-radius: 42px;
+    border: 1px solid #000000;
+    display: inline-block;
+    cursor: pointer;
+    color: #000000;
+    font-family: Arial;
+    font-size: 28px;
+    padding: 9px 26px;
+    text-decoration: none;
+}
+
+.owl-carousel img {
+    background-color: green;
+    width: 50px;
+    height: 300px;
+
+}
+
+
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+input[type="date"] {
+    background-color: #414b55;
+    padding: 15px;
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 15%;
+    left: 13%;
+    font-family: "Roboto Mono", monospace;
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+::-webkit-calendar-picker-indicator {
+    background-color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+
+@media(max-width:1000px) {
+    .container-fluid {
+        position: fixed;
+        background-color: rgb(236, 245, 218);
+        margin-top: 8%;
+    }
+
+    .aradiv {
+        width: 95%;
+        height: 170px;
+    }
+
+    .navbar-brand,
+    .navbar-toggler {
+        font-size: large;
+        margin: 2%;
+        border: 0;
+    }
+
+    .aradiv button {
+
+        width: 20%;
+        height: 4%;
+        color: black;
+        border-color: rgb(245, 152, 54);
+    }
+
+    .testimage {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15%;
+        width: 90%;
+        height: 300px;
+        background-color: green;
+        border: 1px solid;
+    }
+
+    input[type="date"] {
+        background-color: #414b55;
+        padding: 15px;
+        position: relative;
+        transform: translate(-50%, -50%);
+        top: 15%;
+        left: 25%;
+        font-family: "Roboto Mono", monospace;
+        color: #ffffff;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+    }
+
+    .owl-carousel {
+        width: 100%;
+    }
+
+    .am-next {
+        position: absolute;
+        top: 36%;
+        left: 1%;
+        background-color: rgb(236, 245, 218);
+        border-radius: 42px;
+        border: 1px solid #000000;
+        display: inline-block;
+        cursor: pointer;
+        color: #000000;
+        font-family: Arial;
+        font-size: 28px;
+        padding: 9px 26px;
+        text-decoration: none;
+    }
+
+    .am-prev {
+        top: 36%;
+        right: 1%;
+        position: absolute;
+        background-color: rgb(236, 245, 218);
+        border-radius: 42px;
+        border: 1px solid #000000;
+        display: inline-block;
+        cursor: pointer;
+        color: #000000;
+        font-family: Arial;
+        font-size: 28px;
+        padding: 9px 26px;
+        text-decoration: none;
+    }
+
+    #nebileyim {
+        text-align: center;
+        margin-top: 15%;
+        font-size: x-large;
+    }
+
+    .selecthotel {
+        width: 90%;
+        height: 300px;
+        margin-left: 3%;
+        margin-top: 12%;
+    }
+
+    #hotelsimage {
+        width: 25%;
+        height: 100%;
+        background-color: red;
+    }
+
+    .part {
+        width: 37.5%;
+        height: 100%;
+        background-color: transparent;
+        float: right;
+        font-size: large;
+    }
+
+}
